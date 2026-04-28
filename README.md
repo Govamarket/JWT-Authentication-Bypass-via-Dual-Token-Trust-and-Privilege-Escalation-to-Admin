@@ -92,11 +92,3 @@ Set-Cookie: sessionId=admin_session_12345
 - Remove duplicate token handling logic
 - Validate roles server-side from the database
 
-## Evidence Checklist
-
-Before submitting, ensure the following are attached:
-
-- [ ] Full raw HTTP request (Burp Suite copy)
-- [ ] Full raw HTTP response showing admin cookies
-- [ ] Before/after comparison of JWT payloads
-- [ ] Screenshot of modified JWT (optional but recommended)
