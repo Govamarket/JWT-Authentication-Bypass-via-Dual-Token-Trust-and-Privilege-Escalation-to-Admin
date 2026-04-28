@@ -1,5 +1,10 @@
 # JWT-Authentication-Bypass-via-Dual-Token-Trust-and-Privilege-Escalation-to-Admin
 
+<div>
+  <img width="1366" height="728" alt="modify" src="https://github.com/user-attachments/assets/bd2bf9ba-7883-476e-a87a-408487570a22" />
+
+</div>
+
 ## Summary
 
 The application accepts two authentication parameters (`userToken` and `token`) in the same request and inconsistently validates them. By modifying the `role` claim in one JWT, an attacker can escalate privileges from a normal user to an administrator. The system appears to trust client-side JWT payload data without enforcing consistent signature verification or a single authoritative token source.
